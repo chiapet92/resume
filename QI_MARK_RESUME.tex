@@ -52,7 +52,7 @@
 \setlist{leftmargin=*,topsep=0pt,parsep=0pt,partopsep=0pt, label={--}}
 
 % Increase text height
-\textheight=700pt
+\textheight=770pt
 
 \begin{document}
 
@@ -65,45 +65,13 @@
 % -phone numbers
 % -email addresses
 % -linked-in profile
-
-\address{US Citizen}
-\address{mark.x.qi@gmail.com $\bullet$ 404-952-0273}
+\address{mark.x.qi@gmail.com $\bullet$ 404-952-0273 $\bullet$ 901 NW 61$^{st}$ Street, Seattle, WA 98107}
 
 % Uncomment to add a third address
 %\address{Address 3 line 1\\Address 3 line 2\\Address 3 line 3}
 %-------------------------------------------------------------------------------
 
 \begin{resume}
-%-------------------------------------------------------------------------------
-%   Interests
-%-------------------------------------------------------------------------------
-\section{INTERESTS}
-Distributed System, Data Storage
-%-------------------------------------------------------------------------------
-
-
-%-------------------------------------------------------------------------------
-%   EDUCATION SECTION
-%-------------------------------------------------------------------------------
-\section{EDUCATION}
-\textbf{Georgia Institute of Technology}, Atlanta, GA\hfill 09/2016 - 05/2020\\
-{\sl Master of Science}, Computer Science\\
-Specialization: Computing Systems\\
-
-\textbf{Georgia Institute of Technology}, Atlanta, GA\hfill 08/2010 - 05/2014\\
-{\sl Bachelor of Engineering}, Chemical Engineering\\
-Specialization: Biomolecular Engineering\\
-Overall GPA: 3.65\hspace{10mm}Major GPA: 3.8
-%-------------------------------------------------------------------------------
-
-%-------------------------------------------------------------------------------
-%   COMPUTER SKILLS SECTION
-%-------------------------------------------------------------------------------
-\section{PROGRAMMING}
-
-\textbf{Proficient}: Java\\
-\textbf{Familiar}: Python, Ruby\\
-%-------------------------------------------------------------------------------
 
 %-------------------------------------------------------------------------------
 %   EXPERIENCE SECTION
@@ -124,12 +92,10 @@ Overall GPA: 3.65\hspace{10mm}Major GPA: 3.8
 \begin{position}
 GCP Core Compute\\
 \begin{itemize}
-\item Working on productionalizing tooling to automatically migrate customer workloads on GCP
-\item Integrating ML into optimizing recommendation system to minimum service downtime on comparable platforms.
+\item Bootstrapped and productionalized 80\% of a new GCP product, and mentored 3 engineers to onboard in developing on the service
+\item Reviewed 75\% of the code reviews of a team of 4 engineers; built and enforced automated E2E evaluation processes to prevent regressions in new code commits.
 \end{itemize}
 \end{position}
-
-\vspace{\baselineskip}
 
 \employer{\textbf{Amazon Web Services}}
 \location{Seattle, WA}
@@ -138,13 +104,12 @@ GCP Core Compute\\
 \begin{position}
 Commerce Platform\\
 \begin{itemize}
-\item Engineered microservices at Amazon-scale volumes, supporting the invoice generation and delivery experience for all AWS customers
-\item Developed testing strategies and plans for multi-service, multi-region systems
-\item Worked on org-wide projects to migrated services' backend storage from relational to NoSQL with no service downtime
+\item Developed a multi-region API call router, and backend data migration \& verification process to aid in the data regionalization efforts of 10 teams and fulfilling the \#1 priority of the organization of 2020
+\item Owned feature testing strategies and integration efforts of 18 services spread over 10 teams
+\item Led backend storage migration efforts from relational to NoSQL with no service downtime, interfaced with 5 other teams in data ownership concerns.
 \end{itemize}
 \end{position}
 
-\vspace{\baselineskip}
 
 \employer{\textbf{The Home Depot}}
 \location{Atlanta, GA}
@@ -153,10 +118,43 @@ Commerce Platform\\
 \begin{position}
 Core Finance\\
 \begin{itemize}
-\item Designed and built data integration processes between multiple data sources (Google BigQuery, IBM DB2, Teradata)
-\item Automated verification processes to ensure parity between different databases
+\item Designed and built data integration processes between multiple data sources (BigQuery, DB2, Teradata) and verification processes to ensure parity
 \end{itemize}
 \end{position}
+
+
+\employer{\textbf{PowerPlan}}
+\location{Atlanta, GA}
+\dates{01/2016 - 02/2018}
+\title{\sl{Technical Consultant}}
+\begin{position}
+Technical Platform\\
+\begin{itemize}
+\item Managed, built, and performed database migration plans, and designed/built custom extension features for accounting applications
+\end{itemize}
+\end{position}
+
+%-------------------------------------------------------------------------------
+%   EDUCATION SECTION
+%-------------------------------------------------------------------------------
+\section{EDUCATION}
+\textbf{Georgia Institute of Technology}, Atlanta, GA\hfill 09/2016 - 05/2020\\
+{\sl Master of Science}, Computer Science, Specialization in Computing Systems\\
+
+\textbf{Georgia Institute of Technology}, Atlanta, GA\hfill 08/2010 - 05/2014\\
+{\sl Bachelor of Engineering}, Chemical Engineering\\
+\\
+Overall GPA: 3.65\hspace{10mm}Major GPA: 3.8
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+%   COMPUTER SKILLS SECTION
+%-------------------------------------------------------------------------------
+\section{PROGRAMMING}
+
+\textbf{Language}: Java, Golang, Python, SQL, Ruby\\
+\textbf{Technologies}: AWS (SQS, SNS, Dynamo, Lambda, IAM, ECS), GCP (BigQuery, Spanner), Git, REST, gRPC, Bash\\
+%-------------------------------------------------------------------------------
 
 \end{resume}
 \end{document}
